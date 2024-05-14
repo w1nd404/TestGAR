@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D4CE8FDF-31F3-4CFD-A5D8-A29A28BF2865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGAR", "Core\TestGAR\TestGAR.csproj", "{0F4B3F61-E1FD-4E3C-8F45-A406605C847D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{17AE2408-201E-4A98-B7FC-0E99C2C07D4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6D9D6830-2B8A-4B61-8525-67E5A5BB5FB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C6F9FDA3-E514-4890-BA62-5687BB6309F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F4B3F61-E1FD-4E3C-8F45-A406605C847D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4B3F61-E1FD-4E3C-8F45-A406605C847D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4B3F61-E1FD-4E3C-8F45-A406605C847D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4B3F61-E1FD-4E3C-8F45-A406605C847D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F4B3F61-E1FD-4E3C-8F45-A406605C847D} = {D4CE8FDF-31F3-4CFD-A5D8-A29A28BF2865}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24BF8405-C469-4E0E-8FD2-3C4D2BE33929}
+	EndGlobalSection
+EndGlobal
