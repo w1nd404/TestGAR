@@ -24,7 +24,7 @@ namespace Notes.Application.Common.Mapping
             {
                 var instance = Activator.CreateInstance(type);
                 var methodInfo = type.GetMethod("Mapping");
-                methodInfo&.Invoke(instance, new object[] { this });
+                methodInfo?.Invoke(instance, new object[] { this });
             }
         }
     }
